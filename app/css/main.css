@@ -649,7 +649,7 @@ ul.profil_menu li i{
 	.ad_posts {
 		margin-top: 20px;
 		margin-bottom: 20px;
-		border: #3797BF 3px solid;
+		border: #4EC698 3px solid;
 		border-radius:0.3em;
 		padding: 5px;
 		height: 200px;
@@ -877,7 +877,7 @@ ul.profil_menu li i{
 	.footer_topline{
 		background-color: #43484C;
 		padding: 10px 0;
-		color: #31B0D5;
+		color: #4EC698;
 		min-height: 30px;
 	}
 
@@ -989,7 +989,7 @@ ul.profil_menu li i{
 
 	.modules{
 		margin-top: 5px 0;
-		border: #3797BF 3px solid;
+		border: #4EC698 3px solid;
 		border-radius:0.3em;
 		padding: 5px;
 		background-color: #fff;
@@ -1029,7 +1029,7 @@ ul.profil_menu li i{
 	}
 	.article-row h2{
 		font-size: 20px;
-		color: #3779BF;
+		color: #4EC698;
 		padding-left: 15px;
 		text-transform: uppercase;
 		margin-bottom: 10px;
@@ -1114,11 +1114,11 @@ ul.profil_menu li i{
 		width: 100%;
 		top:0;
 		left:0;
-		box-shadow: 0 0 16px rgba(0,0,255, .5);
+		box-shadow: 0 0 16px rgba(78,198,152, .5);
 		overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 	}
 	.article_main_widget > div:hover{
-		border: 1px solid #3779BF;
+		border: 1px solid #396B62;
 		background-color: #fff;
 	}
 
@@ -1175,7 +1175,7 @@ ul.profil_menu li i{
 		height: 100%;
 		padding: 5px;
 		overflow: hidden;
-		background-color: rgba(249,229,4,.5);
+		background-color: rgba(59,219,157,.5);
 		/*opacity:1;*/
 		-webkit-transition: all 1s;
 		-o-transition: all 1s;
@@ -1287,7 +1287,7 @@ ul.profil_menu li i{
 	}
 
 	.article_post a{
-		color:#3779BF;
+		color:#4EC698;
 	}
 
 		.article_post a:hover{
