@@ -30,7 +30,7 @@ body {
 
 /* Верхнее меню */
 .form_search .form-inline .input-group-addon{
-	background-color:#31B0D5;
+	background-color:#4EC698;
 	color: #fff;
 	font-size: 18px;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .top_main_menu ul li:hover{
-	background-color: #31B0D5;
+	background-color: #4EC698;
 }
 
 .top_main_menu ul li a{
@@ -75,11 +75,11 @@ body {
 }
 
 .top_main_menu ul li.active{
-	background-color: #31B0D5;
+	background-color: #396B62;
 }
 
 #accordion .panel-info > .panel-heading {
-	background-color: #3797BF;
+	background-color: #4EC698;
 	border-color: #fff;
 }
 
@@ -403,7 +403,6 @@ ul.profil_menu li i{
 	.main_menu ul li span.header {
 		color: #fff;
 		padding: 10px 15px;
-		/*	display: block;*/
 		-webkit-transition:all .25s;
 		-o-transition:all .25s ;
 		transition:all .25s ;
@@ -433,6 +432,17 @@ ul.profil_menu li i{
 		position: relative;
 	}
 
+	.main_menu ul li.home.active{
+		background-color: #396B62;
+		border-bottom-left-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+	.main_menu ul li.active >span {
+		color:yellow;
+		background-color: #396B62;
+		height: 100%;
+	}
+
 	.main_menu ul li ul{
 		background-color: #396B62;
 		left: 0;
@@ -443,6 +453,11 @@ ul.profil_menu li i{
 	.main_menu ul li ul li{
 		display: inline-block;
 		width: 100%;
+	}
+
+	.main_menu ul li ul li.active a{
+		color:yellow;
+		background-color: #396B62;
 	}
 
 	.main_menu ul li ul li a{
@@ -462,7 +477,7 @@ ul.profil_menu li i{
 		padding: 3px 10px;
 		float: left;
 		vertical-align: middle;
-		background-color: #3797BF;
+		background-color: #4EC698;
 		width: 100%;
 	}
 
@@ -1286,7 +1301,7 @@ ul.profil_menu li i{
 		color:#4EC698;
 	}
 
-		.article_post a:hover{
+	.article_post a:hover{
 		background-color: transparent;
 	}
 
@@ -1336,7 +1351,6 @@ ul.profil_menu li i{
 	.tab-content {
 		border-bottom: 1px solid #ddd;
 		border-left: 1px solid #ddd;
-		/*border-radius: 0 0 15px 15px;*/
 		border-right: 1px solid #ddd;
 	}
 	/* Стили модуля Розыск (wanted) */
@@ -1668,7 +1682,7 @@ ul.profil_menu li i{
 }
 #carousel-wanted_pets.carousel.slide ul.carousel-indicators img.active{
 	/*border:1px solid yellow;*/
-	background-color: #3797BF;
+	background-color: #4EC698;
 	cursor:auto;
 }
 .all_wanted_pets{
