@@ -237,7 +237,7 @@ ul.profil_menu li i{
 	}
 
 	.form_find .form-group{
-		border: 1px solid #31b0d5;
+		border: 1px solid yellow;
 		border-radius:5px;
 	}
 
@@ -388,13 +388,13 @@ ul.profil_menu li i{
 
 
 	.main_menu a:hover{
-		background-color: #3779BF;
+		background-color: #4EC698;
 		color: yellow;
 		text-decoration: none;
 	}
 
 	.active a:hover {
-		background-color: #3779BF;
+		background-color: #4EC698;
 		text-decoration: none;
 		border-top-left-radius:0.3em;
 		border-bottom-left-radius:0.3em;
@@ -514,7 +514,7 @@ ul.profil_menu li i{
 		overflow: hidden;
 	}
 	.main_slider .item h3 > a:hover{
-		color: #3779BF;
+		color: #4EC698;
 		background-color: transparent;
 		text-decoration:underline;
 	}
@@ -632,7 +632,7 @@ ul.profil_menu li i{
 	}
 
 	.body_panel ul a:hover {
-		background-color: #3779BF;
+		background-color: #4EC698;
 		color: yellow;
 		text-decoration: none;
 		border-bottom: 1px dashed yellow;
@@ -1001,14 +1001,12 @@ ul.profil_menu li i{
 		margin-top: 15px;
 		padding: 5px;
 		padding-bottom: 55px;	
-		/* background-color: #fff; */
 		width: 100%;
-		/* border-bottom: 1px dashed #3779BF; */
 		position: relative; 
 	}
 	.post-row h2{
 		font-size: 20px;
-		color: #3779BF;
+		color: #4EC698;
 		padding-left: 15px;
 		text-transform: uppercase;
 		margin-bottom: 10px;
@@ -1020,10 +1018,8 @@ ul.profil_menu li i{
 		display: inline-block;
 		margin-top: 15px;
 		padding: 5px;
-		padding-bottom: 55px;	
-		/* background-color: #fff; */
+		padding-bottom: 55px;
 		width: 100%;
-		/* border-bottom: 1px dashed #3779BF; */
 		position: relative; 
 		overflow: hidden;
 	}
@@ -1040,7 +1036,7 @@ ul.profil_menu li i{
 	/* Виджет модуля новости */
 	.post_widget{
 		margin-bottom: 10px;
-		border: 1px solid #3779BF;
+		border: 1px solid #4EC698;
 		padding-top: 0px;
 		text-align: center;
 		position: relative;
@@ -1062,10 +1058,10 @@ ul.profil_menu li i{
 		box-shadow: 0 0 16px rgba(0,0,255, .5);
 	}
 	.post_widget > div:hover{
-		border: 1px solid #3779BF;
+		border: 1px solid #4EC698;
 	}
 	.post_widget h3{
-		background-color: #3779BF;
+		background-color: #4EC698;
 		font-size: .95em;
 		font-weight: 300;
 		padding: 5px;
@@ -1147,7 +1143,7 @@ ul.profil_menu li i{
 		color: black;
 	}
 	.article_main_widget h3 > a:hover {
-		color:#3779BF;
+		color:#4EC698;
 		text-decoration: none;
 		background-color: transparent;
 	}
@@ -1234,7 +1230,7 @@ ul.profil_menu li i{
 		color: #000000;
 	}
 	.article_widget h3 > a:hover {
-		color:#3779BF;
+		color:#4EC698;
 		text-decoration: none;
 		background-color: transparent;
 	}
@@ -1311,7 +1307,7 @@ ul.profil_menu li i{
 		border-width: 1px;
 		cursor: default;  color: yellow;
 		font-size: 1.2em;
-		background-color: #3779BF;
+		background-color: #4EC698;
 		/*border-radius: 15px 15px 0 0;*/
 	}
 
@@ -1335,10 +1331,7 @@ ul.profil_menu li i{
 	}
 
 	.tab-content > .active {
-		/*border-top: 1px solid #3779bf;*/
-		/*border-bottom: 1px solid #3779bf;*/
 		display: block;
-		/*border-radius: 0px 0px 10px 10px;*/
 	}
 	.tab-content {
 		border-bottom: 1px solid #ddd;
@@ -1360,7 +1353,7 @@ ul.profil_menu li i{
 		border-width: 1px;
 		cursor: default;  color: yellow;
 		font-size: 1.2em;
-		background-color: #3779BF;
+		background-color: #4EC698;
 		/*border-radius: 15px 15px 0 0;*/
 	}
 
@@ -1505,7 +1498,7 @@ ul.profil_menu li i{
 
 /* Стили слайдера модуля поиска собаки  */
 #carousel-wanted_pets{
-	/*border: 1px dashed #3779BF;*/
+	/*border: 1px dashed #4EC698;*/
 	background-color: #fff;
 }
 #carousel-wanted_pets .carousel-inner{
@@ -1542,6 +1535,10 @@ ul.profil_menu li i{
 	padding-top: 15px;
 	padding-bottom: 25px;
 	color: red;
+}
+
+.carousel-caption h3 > a{
+	color:#396B62;
 }
 .caption-content{
 	margin-left: -80px;
