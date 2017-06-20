@@ -430,17 +430,33 @@ ul.profil_menu li i{
 	.main_menu ul li{
 		display: inline-block;
 		position: relative;
+		margin-left: -2px;
+		margin-right: -2px;
 	}
 
-	.main_menu ul li.home.active{
+.main_menu ul li.home.active{
+		color:yellow;
 		background-color: #396B62;
-		border-bottom-left-radius: 5px;
-		border-top-left-radius: 5px;
+		border-bottom-left-radius: 0.3em;
+		border-top-left-radius: 0.3em;
+	}
+	
+	.main_menu ul li.home{
+		margin-left: 0px;
+		margin-right: 0px;
+		border-bottom-left-radius: 0.3em;
+		border-top-left-radius: 0.3em;
+	}
+
+	.main_menu ul li.home.active a{
+		color:yellow;
+	}
+		.main_menu ul li.active {
+		background-color: #396B62;
 	}
 	.main_menu ul li.active >span {
 		color:yellow;
 		background-color: #396B62;
-		height: 100%;
 	}
 
 	.main_menu ul li ul{
