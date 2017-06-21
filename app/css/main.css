@@ -396,9 +396,9 @@ ul.profil_menu li i{
 	}
 
 	nav.main_menu.stickytop {
-    position:fixed;
-    top:40px;
-}
+		position:fixed;
+		top:40px;
+	}
 
 	.path_links{
 		background-color: #3797BF;
@@ -753,11 +753,49 @@ ul.profil_menu li i{
 		margin-bottom: 20px;
 		border: #4EC698 3px solid;
 		border-radius:0.3em;
-		padding: 5px;
+		padding-top: 20px;
 		height: 200px;
 		background-color: #fff;
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 	}
+
+	.ad_posts img{
+		width: 100%;
+		height: 150px;
+	}
+
+	.part_links {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: #4EC698 3px solid;
+		border-radius:0.3em;
+		padding-top: 20px;
+		height: 200px;
+		background-color: #fff;
+		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	}
+
+	.part_links h2 {
+		color: #4ec698;
+		font-family: "RobotoRegular",sans-serif;
+		font-size: 20px;
+		margin-bottom: 10px;
+		margin-top: 0;
+		padding-left: 15px;
+		text-transform: uppercase;
+	}
+
+	.part_links ul{
+		list-style: square outside;
+	}
+	.part_links ul li{
+		color:#396B62;
+	}
+
+	.part_links ul li a{
+		color:#396B62;
+	}
+
 	.list_posts{
 		margin-top: 10px;
 		border: #3797BF 3px solid;
