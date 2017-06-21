@@ -382,6 +382,9 @@ ul.profil_menu li i{
 
 	/*====== Главное меню ======== */
 	.main_menu{
+		top:50px;
+		width: 1170px;
+		z-index: 100;
 		background-color: #43484C;
 		color: #fff;
 		margin-right: -15px;
@@ -391,6 +394,11 @@ ul.profil_menu li i{
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		border: 1px solid #fff;
 	}
+
+	nav.main_menu.stickytop {
+    position:fixed;
+    top:40px;
+}
 
 	.path_links{
 		background-color: #3797BF;
@@ -426,7 +434,7 @@ ul.profil_menu li i{
 
 
 	.main_menu a:hover{
-		background-color: #4EC698;
+		background-color: #396B62;
 		color: yellow;
 		text-decoration: none;
 	}
@@ -472,6 +480,22 @@ ul.profil_menu li i{
 		margin-right: -3px;
 	}
 
+	.main_menu ul li a{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.main_menu ul li.home a{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.main_menu ul li.home a:hover{
+		background-color: #396B62;
+		border-bottom-left-radius: 0.3em;
+		border-top-left-radius: 0.3em;
+	}
+
 	.main_menu ul li.home.active{
 		color:yellow;
 		background-color: #396B62;
@@ -491,6 +515,7 @@ ul.profil_menu li i{
 	}
 	.main_menu ul li.active {
 		background-color: #396B62;
+		/*border:1px solid yellow;*/
 	}
 	.main_menu ul li.active >span {
 		color:yellow;
@@ -500,13 +525,19 @@ ul.profil_menu li i{
 	.main_menu ul li ul{
 		background-color: #396B62;
 		left: 0;
-		top: 40px;
-		border: 2px solid #4EC698;
+		top: 35px;
+		border: 2px solid #396B62;
 	}
 
 	.main_menu ul li ul li{
 		display: inline-block;
 		width: 100%;
+		margin-left:0px;
+		margin-right: 0px;
+	}
+
+	.main_menu ul li ul li:hover{
+		border:1px solid yellow;
 	}
 
 	.main_menu ul li ul li.active a{
@@ -519,6 +550,8 @@ ul.profil_menu li i{
 		width: 100%;
 		float: left;
 		background-color: #fff;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.main_menu ul li ul li a:hover{

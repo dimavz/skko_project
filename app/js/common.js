@@ -23,13 +23,13 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
-		$(".menu_button").click(function(){
+	$(".menu_button").click(function(){
 		$(".top_main_menu").slideToggle();
 	});
 
-new WOW({offset:100}).init();
+	new WOW({offset:100}).init();
 
-$(function(){
+	$(function(){
 		$('#accordion').on('show.bs.collapse', function(){
 			console.log($(this));
 			// $(this).next().find('.fa').removeClass().addClass('fa fa-chevron-circle-up');
@@ -124,5 +124,22 @@ $(function(){
 		});
 		return false;
 	});
+ // Фитксация главного меню
+ var $menu = $("main_menu");
+
+ $(window).scroll(function(){
+ 	var top = $(this).scrollTop();
+ 	if ( top >= 100){
+ 		$menu.addClass('stickytop');
+ 		console.log('stickytop');
+ 	} 
+ 	else {
+ 		$menu.removeClass('stickytop');
+ 	}
+ });
 
 });
+
+
+
+
