@@ -758,11 +758,49 @@ ul.profil_menu li i{
 		background-color: #fff;
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 	}
-
+	
 	.ad_posts img{
-		width: 100%;
+		width: 222px;
 		height: 150px;
 	}
+
+	/* Стили слайдера банеров*/
+
+	#carousel-baners .carousel-inner {
+		padding-left: 50px;
+	}
+
+	#carousel-baners .carousel-inner > .item.active {
+		display: inline-block;
+	}
+
+	#carousel-baners .carousel-inner .item.active a {
+		padding-left: 20px;
+		padding-right: 20px;
+		float: left;
+	}
+
+	#carousel-baners .carousel-inner .item a {
+		padding-left: 20px;
+		padding-right: 20px;
+		float: left;
+	}
+
+	    /*Контролы*/
+	.ad_posts.carusel{
+		border: none;
+		position: relative;
+		padding-left: 30px
+		padding-right: 30px;
+	}
+
+	.ad_posts.carusel .carousel-control{
+		width: 5%;
+		color:yellow;
+	}
+
+
+	/* Конец Стилей слайдера банеров*/
 
 	.part_links {
 		margin-top: 20px;
