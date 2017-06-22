@@ -1173,6 +1173,10 @@ ul.profil_menu li i{
 		font-family: "RobotoRegular",sans-serif;
 	}
 
+	.article-row .col-sm-12{
+		text-align: center;
+	}
+
 	/* Виджет модуля новости */
 	.post_widget{
 		margin-bottom: 10px;
@@ -1461,6 +1465,17 @@ ul.profil_menu li i{
 		-o-transition: all .5s;
 		transition: all .5s;
 	}
+	
+	.article_header h3{
+		margin-top: -10px;
+	}
+
+	.article_header .article_data{
+		margin-top: -25px;
+		padding-left: 10px;
+		color: #396B62;
+	}
+
 	.article_post{
 		position: absolute;
 		top: 0;
