@@ -1241,7 +1241,7 @@ ul.profil_menu li i{
 		text-align: left;
 		position: relative;
 		overflow: hidden; /* Скрытие контента, если он превышает размер блока */
-		height: 350px;
+		height: 365px;
 		z-index: 10;
 	}
 	.article_main_widget:hover{
@@ -1315,7 +1315,7 @@ ul.profil_menu li i{
 		height: 100%;
 		padding: 5px;
 		overflow: hidden;
-		background-color: rgba(59,219,157,.5);
+		background-color: rgba(59,219,157,.7);
 		/*opacity:1;*/
 		-webkit-transition: all 1s;
 		-o-transition: all 1s;
@@ -1374,10 +1374,20 @@ ul.profil_menu li i{
 	}
 
 	.article_main_header h3{
+		margin-top: -5px;
 		float: left;
 		width: 80%;
 		height: 100%;
 	}
+	.article_main_header h3 a{
+		color:black;
+	}
+
+	.article_main_header h3 a:hover{
+		color:yellow;
+		text-decoration: underline;
+	}
+
 	.article_main_post > a:hover{
 		text-decoration: none;
 		background-color: transparent;
@@ -1490,7 +1500,7 @@ ul.profil_menu li i{
 	}
 
 	.article_post a{
-		color:#4EC698;
+		color:#396B62;
 	}
 
 	.article_post a:hover{
