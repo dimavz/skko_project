@@ -799,8 +799,13 @@ ul.profil_menu li i{
 		color:yellow;
 	}
 
+	.owl-carousel{
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+
 	.owl-carousel .item img{
-		width: 100%;
+		width: 222px;
 		height: 150px;
 	}
 

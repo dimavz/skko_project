@@ -73,49 +73,75 @@ $(document).ready(function() {
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 2,
-		autoHeight: true,
-		autoPlay: 3000,
-		stopOnHover: true,
-		paginationSpeed : 1000,
-		singleItem:false
+	// var owl = $(".carousel");
+	// owl.owlCarousel({
+	// 	items : 2,
+	// 	autoHeight: true,
+	// 	autoPlay: 3000,
+	// 	stopOnHover: true,
+	// 	paginationSpeed : 1000,
+	// 	singleItem:false
 
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
+	// });
+	// owl.on("mousewheel", ".owl-wrapper", function (e) {
+	// 	if (e.deltaY > 0) {
+	// 		owl.trigger("owl.prev");
+	// 	} else {
+	// 		owl.trigger("owl.next");
+	// 	}
+	// 	e.preventDefault();
+	// });
+	// $(".next_button").click(function(){
+	// 	owl.trigger("owl.next");
+	// });
+	// $(".prev_button").click(function(){
+	// 	owl.trigger("owl.prev");
+	// });
 
 	//Каруселька 2 Owl2
 	var owl = $('.owl-carousel');
 	owl.owlCarousel({
 		animateOut: 'slideOutDown',
-    animateIn: 'flipInX',
-    items:4,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:3000,
-    // autoplayHoverPause:true
-});
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-});
+		animateIn: 'flipInX',
+		items:4,
+		loop:true,
+		margin:10,
+		autoplay:true,
+		autoplayTimeout:2000,
+		autoHeight:true,
+		autoplayHoverPause:true
+	});
+	$('.play').on('click',function(){
+		owl.trigger('play.owl.autoplay',[1000])
+	})
+	$('.stop').on('click',function(){
+		owl.trigger('stop.owl.autoplay')
+	});
+
+	// $('.owl-carousel').owlCarousel({
+	// 	items:4,
+	// 	loop:true,
+	// 	margin:10,
+	// 	autoplay:true,
+	// 	autoplayTimeout:2000,
+	// 	autoHeight:true,
+	// 	responsiveClass:true,
+	// 	responsive:{
+	// 		0:{
+	// 			items:1,
+	// 			nav:true
+	// 		},
+	// 		600:{
+	// 			items:3,
+	// 			nav:false
+	// 		},
+	// 		1000:{
+	// 			items:5,
+	// 			nav:true,
+	// 			loop:false
+	// 		}
+	// 	}
+	// });
 
 	//Кнопка "Наверх"
 	//Документация:
