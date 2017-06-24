@@ -72,76 +72,62 @@ $(document).ready(function() {
 	});
 
 	//Каруселька
-	//Документация: http://owlgraphic.com/owlcarousel/
-	// var owl = $(".carousel");
-	// owl.owlCarousel({
-	// 	items : 2,
-	// 	autoHeight: true,
-	// 	autoPlay: 3000,
-	// 	stopOnHover: true,
-	// 	paginationSpeed : 1000,
-	// 	singleItem:false
-
-	// });
-	// owl.on("mousewheel", ".owl-wrapper", function (e) {
-	// 	if (e.deltaY > 0) {
-	// 		owl.trigger("owl.prev");
-	// 	} else {
-	// 		owl.trigger("owl.next");
-	// 	}
-	// 	e.preventDefault();
-	// });
-	// $(".next_button").click(function(){
-	// 	owl.trigger("owl.next");
-	// });
-	// $(".prev_button").click(function(){
-	// 	owl.trigger("owl.prev");
-	// });
-
-	//Каруселька 2 Owl2
+	//Документация: https://owlcarousel2.github.io/OwlCarousel2/
 	var owl = $('.owl-carousel');
 	owl.owlCarousel({
-		animateOut: 'slideOutDown',
-		animateIn: 'flipInX',
-		items:4,
 		loop:true,
 		margin:10,
+		// nav:true,
+		// autoHeight:true,
 		autoplay:true,
 		autoplayTimeout:2000,
-		autoHeight:true,
-		autoplayHoverPause:true
+		autoplayHoverPause:true,
+		dots:false,
+		responsive:{
+			0:{
+				items:1
+			},
+			480 : {
+				items:2
+			},
+			768:{
+				items:3
+			},
+			1024:{
+				items:4
+			},
+			1200:{
+				items:5
+			}
+		}
 	});
+
 	$('.play').on('click',function(){
 		owl.trigger('play.owl.autoplay',[1000])
-	})
+	});
 	$('.stop').on('click',function(){
 		owl.trigger('stop.owl.autoplay')
 	});
 
-	// $('.owl-carousel').owlCarousel({
-	// 	items:4,
-	// 	loop:true,
-	// 	margin:10,
-	// 	autoplay:true,
-	// 	autoplayTimeout:2000,
-	// 	autoHeight:true,
-	// 	responsiveClass:true,
-	// 	responsive:{
-	// 		0:{
-	// 			items:1,
-	// 			nav:true
-	// 		},
-	// 		600:{
-	// 			items:3,
-	// 			nav:false
-	// 		},
-	// 		1000:{
-	// 			items:5,
-	// 			nav:true,
-	// 			loop:false
-	// 		}
-	// 	}
-	// });
+	owl.on('mousewheel', '.owl-stage', function (e) {
+		if (e.deltaY>0) {
+			owl.trigger('next.owl');
+		} else {
+			owl.trigger('prev.owl');
+		}
+		e.preventDefault();
+	});
+
+	// Переход с следующему элементу слайдера
+	$('.owl-next').click(function() {
+		owl.trigger('next.owl.carousel');
+	});
+	// Переход к предыдущему элементу слайдера
+	$('.owl-prev').click(function() {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel', [300]);
+  });
 
 	//Кнопка "Наверх"
 	//Документация:
