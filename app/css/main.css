@@ -680,7 +680,7 @@ ul.profil_menu li i{
 		height: 195px;
 		margin-top: 40px;
 		margin-bottom: 20px;
-		padding-left: 65px;
+		padding-left: 60px;
 		padding-right: 40px;
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -688,8 +688,12 @@ ul.profil_menu li i{
 		text-align: center;
 		/*border: 3px solid #4EC698;
 		border-radius: 0.3em;*/
-		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 	}
+
+	/*.owl-stage-outer{
+		margin: 20px auto;
+	}*/
 
 	#bottom_baners.owl-carousel{
 		height: 195px;
@@ -728,9 +732,9 @@ ul.profil_menu li i{
 		left: 0;
 		height: 195px;
 		width: 170px;
-		opacity: .5;
+		opacity: .7;
 		text-align: center;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0) 100%);
+		background-image: linear-gradient(to right, rgba(78, 198, 152, 0.5) 0px, rgba(0, 0, 0, 0) 100%);
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 		z-index: 90;
 		cursor: pointer;
@@ -742,9 +746,9 @@ ul.profil_menu li i{
 		right: 0;
 		height: 195px;
 		width: 170px;
-		opacity: .5;
+		opacity: .7;
 		text-align: center;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(78, 198, 152, 0.5) 100%);
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 		z-index: 90;
 		cursor: pointer;
@@ -778,17 +782,17 @@ ul.profil_menu li i{
 	}
 	.owl-prev i{
 		margin-top: 85px;
-		margin-left: -85px;
-		color:#3797BF;
-		z-index: 1900;
+		margin-left: -110px;
+		color:#396B62;
+		z-index: 95;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
 	.owl-next i{
 		margin-top: 85px;
-		margin-right: -85px;
-		color:#3797BF;
-		z-index: 90;
+		margin-right: -110px;
+		color:#396B62;
+		z-index: 95;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
