@@ -196,6 +196,13 @@ ul.profil_menu li i{
 	border:none;
 }
 
+.icon_search {
+  left: 225px;
+  position: absolute;
+  top: -3px;
+  cursor: pointer;
+}
+
 .top_search{
 	display: inline-block;
 	position: absolute;

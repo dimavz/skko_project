@@ -7,6 +7,10 @@ $(document).ready(function() {
 		$(".main_menu ul").slideToggle();
 	});
 
+	$(".icon_search").click(function(){
+		$(".top_search").slideToggle();
+	});
+
 	$(".auth_button").click(function(){
 		$(".top_login").slideToggle();
 	});

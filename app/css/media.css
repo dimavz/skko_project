@@ -14,8 +14,16 @@
 		margin-top: 80px;
 	}
 	/* Форма поиска */ 
-	.top_search{
-		left: 300px;
+	.top_search span {
+		left: -15px;
+	}
+	.phones{
+		font-size: 16px;
+		margin-right: -10px;
+		padding-top: 3px;
+	}
+	.form_find {
+		left: -25px;
 	}
 
 	/*Стиль слайдера*/
@@ -112,9 +120,9 @@
 		height: 200px;
 	}
 
-		/* Форма поиска */ 
+	/* Форма поиска */ 
 	.top_search{
-		left: 210px;
+		left: 285px;
 	}
 
 	.logo_text{
@@ -144,12 +152,18 @@
 	}
 
 	.top_links{
-	padding-top: 0px;
-}
+		padding-top: 0px;
+	}
 
 	.greeting h3 {
 		font-size: 30px;
 		margin-top: 100px;
+	}
+	.top_search{
+		position: absolute;
+		display: none;
+		top: 45px;
+		left: 250px;
 	}
 
 	.main_adsense {
@@ -163,8 +177,8 @@
 	}
 
 	.main_menu ul li span.header {
-	padding: 5px 10px;
-}
+		padding: 5px 10px;
+	}
 
 	.footer_left_block h3{
 		display: block;
@@ -928,36 +942,37 @@
 			}
 		/*	.main_menu ul{
 				display: inline-block;
-			}*/
-			
-			.top_main_menu{
-				display: none !important;
-			}
-		}
+				}*/
 
-		/* Medium Devices, Desktops */
-		@media only screen and (min-width : 992px) {
-			.footer_left_block ul{
-				display: block !important;
+				.top_main_menu{
+					display: none !important;
+				}
 			}
 
-			.rec_content{
-				display: block !important;
+			/* Medium Devices, Desktops */
+			@media only screen and (min-width : 992px) {
+				.footer_left_block ul{
+					display: block !important;
+				}
+
+				.rec_content{
+					display: block !important;
+				}
+
+				.contacts_content{
+					display: block !important;
+				}
+
+				.top_login{
+					display: inline-block !important;
+				}
+				.form_find{
+					display: inline-block !important;
+				}
+				
 			}
 
-			.contacts_content{
-				display: block !important;
+			/* Large Devices, Wide Screens */
+			@media only screen and (min-width : 1200px) {
+				
 			}
-
-			.top_login{
-				display: inline-block !important;
-			}
-			.form_find{
-				display: inline-block !important;
-			}
-		}
-
-		/* Large Devices, Wide Screens */
-		@media only screen and (min-width : 1200px) {
-
-		}
