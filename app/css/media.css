@@ -758,6 +758,24 @@
 				width: 100%;
 				text-align: center;
 			}
+			.icon_phone{
+				display: block;
+				position: absolute;
+				top: 5px;
+				right: 0px;
+				cursor: pointer;
+			}
+			.phones{
+				display: none;
+				position: absolute;
+				width: 200px;
+				height: 70px;
+				top:40px;
+				right: -20px;
+				background-color: #396B62;
+				padding: 20px;
+			}
+
 			/* Слайдер */
 			.carousel-indicators{
 				left: 63%;
@@ -928,7 +946,9 @@
 
 		/* Extra Small Devices, Phones */
 		@media only screen and (min-width : 480px) {
-
+			.phones{
+				display: block !important;
+			}	
 		}
 
 		/* Small Devices, Tablets */

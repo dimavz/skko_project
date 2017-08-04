@@ -252,6 +252,9 @@ ul.profil_menu li i{
 		display: inline-block;
 		/*background-color: #505559;*/
 	}
+	.icon_phone{
+		display: none;
+	}
 
 	.phones{
 		float: right;

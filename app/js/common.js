@@ -11,6 +11,11 @@ $(document).ready(function() {
 		$(".top_search").slideToggle();
 	});
 
+	$(".icon_phone").click(function(){
+		$(".phones").slideToggle();
+	});
+	
+
 	$(".auth_button").click(function(){
 		$(".top_login").slideToggle();
 	});
