@@ -467,6 +467,10 @@
 		margin-bottom: 10px;
 	}
 
+	.owl-carousel .item {
+		margin-left: 50px;
+	}
+
 	.main_menu ul{
 		display: none;
 		position: absolute;
@@ -615,6 +619,13 @@
 			width: 30%;
 		}
 		/* Конец стиль слайдера*/
+	}
+
+	@media only screen and (max-width : 600px) {
+
+		.owl-carousel .item {
+			margin-left: 20px;
+		}
 	}
 
 	/* Для настройки отображения навигатора страниц */
@@ -843,6 +854,10 @@
 			.wraper_logo .col-md-9.col-sm-9.col-xs-8{
 				width: 100%;
 			}
+			/* Слайдер рекламных банеров*/
+			.owl-carousel .item {
+				margin-left: 85px;
+			}
 
 			/* Слайдер */
 			.carousel-indicators{
@@ -988,6 +1003,9 @@
 			.notice {
 				height: 150px;
 				margin-bottom: 5px;
+			}
+			.owl-carousel .item {
+				margin-left: 0px;
 			}
 			.post_image img{
 				max-width: 230px;
