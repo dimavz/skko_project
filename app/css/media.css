@@ -467,9 +467,9 @@
 		margin-bottom: 10px;
 	}
 
-	.owl-carousel .item {
+	/*.owl-carousel .item {
 		margin-left: 50px;
-	}
+	}*/
 
 	.main_menu ul{
 		display: none;
@@ -623,9 +623,9 @@
 
 	@media only screen and (max-width : 600px) {
 
-		.owl-carousel .item {
+		/*.owl-carousel .item {
 			margin-left: 20px;
-		}
+		}*/
 	}
 
 	/* Для настройки отображения навигатора страниц */
@@ -855,9 +855,9 @@
 				width: 100%;
 			}
 			/* Слайдер рекламных банеров*/
-			.owl-carousel .item {
+			/*.owl-carousel .item {
 				margin-left: 85px;
-			}
+			}*/
 
 			/* Слайдер */
 			.carousel-indicators{
@@ -1004,9 +1004,9 @@
 				height: 150px;
 				margin-bottom: 5px;
 			}
-			.owl-carousel .item {
+			/*.owl-carousel .item {
 				margin-left: 0px;
-			}
+			}*/
 			.post_image img{
 				max-width: 230px;
 				max-height: 200px;
