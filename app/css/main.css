@@ -313,17 +313,19 @@ ul.profil_menu li i{
 	}
 
 	.logo_title h1{
-		font-family: "DisneyParkRegular";
+		font-family: "RobotoRegular", sans-serif;
 		color: yellow;
-		font-size: 58px;
+		font-size: 50px;
 	}
-
+	.logo_title a{
+		color: yellow;
+	}
 	.logo_title a:hover{
 		text-decoration: none;
 	}
 
 	.logo_title h1:hover{
-		color: red;
+		color: yellow;
 		text-decoration:underline;
 	}
 
