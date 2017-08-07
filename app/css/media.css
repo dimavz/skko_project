@@ -81,6 +81,43 @@
 	}
 	/* Конец стиль слайдера*/
 
+	/* Стили модуля новостей*/
+	.article_header {
+		position: absolute;
+		left: 150px;
+		width: 70%;
+	}
+	.article_widget h3 {
+		font-size: 1.05em;
+	}
+	.article_main_content {
+		top: 79%;
+	}
+	.article_main_widget {
+		border: 1px solid #43484c;
+		height: 340px;
+	}
+	.article_main_widget h3 {
+		font-size: 1.15em;
+	}
+	.article_main_widget > div {
+		height: 340px;
+	}
+	.article_main_img {
+		border:none;
+	}
+	.article_main_header .data {
+		width: 25%;
+	}
+	.article_main_header .data span.day {
+		font-size: 1.55em;
+	}
+	.article_main_header h3 {
+		width: 75%;
+	}
+
+	/* Конец стилей модуля новостей*/
+
 	/* Стили слайдера розыска */
 	#carousel-wanted_pets .carousel-inner .item img {
 		height: 310px;
@@ -469,109 +506,109 @@
 
 	/*.owl-carousel .item {
 		margin-left: 50px;
-	}*/
+		}*/
 
-	.main_menu ul{
-		display: none;
-		position: absolute;
-		margin-top: 40px;
-		background-color: #3797BF;
-		z-index: 11;
-		width: 100%;
+		.main_menu ul{
+			display: none;
+			position: absolute;
+			margin-top: 40px;
+			background-color: #3797BF;
+			z-index: 11;
+			width: 100%;
+		}
+
+		.main_menu ul li{
+			display: block;
+			float: none;
+			background-color: #3797BF;
+			z-index: 10;
+		}
+
+		.greeting{
+			text-align: center;
+		}
+		.greeting h3 {
+			margin-top: 10px;
+		}
+		.logo_title{
+			text-align: center;
+		}
+		.logo_img{
+			text-align: center;
+		}
+
+		.footer_left_block h3{
+			height: 50px;
+		}
+
+		.footer_center_block h3{
+			height: 50px;
+		}
+
+		.footer_right_block h3{
+			height: 50px;
+		}
+
+		.footer_left_block a{
+			display: block;
+		}
+
+		/*Стиль слайдера*/
+
+		.main_slider img{
+			width: 350px;
+			height: 200px !important;
+		}
+
+		.main_slider .carousel-caption{
+			/*position: absolute;*/
+			top:-35px;
+			left: 370px;
+			text-align: left;
+			width: 310px;
+		}
+
+		.main_slider .carousel-caption .item_text{
+			text-align: left;
+			width: 310px;
+			height: 115px;
+			overflow: hidden;
+		}
+
+		.main_slider .item h3{
+			font-size: 16px;
+			height: 35px;
+			overflow: hidden;
+		}
+
+		.main_slider .item p{
+			color: #000;
+			font-size: 12px;
+		}
+
+		.main_slider .carousel-caption a.btn {
+			margin-top: 5px;
+			padding-left: 15px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			padding-right: 15px;
+		}
+		/* Конец стиль слайдера*/
+
 	}
 
-	.main_menu ul li{
-		display: block;
-		float: none;
-		background-color: #3797BF;
-		z-index: 10;
-	}
+	@media only screen and (max-width : 715px) {
+		/*Стиль слайдера*/
 
-	.greeting{
-		text-align: center;
-	}
-	.greeting h3 {
-		margin-top: 10px;
-	}
-	.logo_title{
-		text-align: center;
-	}
-	.logo_img{
-		text-align: center;
-	}
+		.main_slider img{
+			width: 100%;
+			height: 100% !important;
+		}
 
-	.footer_left_block h3{
-		height: 50px;
-	}
-
-	.footer_center_block h3{
-		height: 50px;
-	}
-
-	.footer_right_block h3{
-		height: 50px;
-	}
-
-	.footer_left_block a{
-		display: block;
-	}
-
-	/*Стиль слайдера*/
-
-	.main_slider img{
-		width: 350px;
-		height: 200px !important;
-	}
-
-	.main_slider .carousel-caption{
-		/*position: absolute;*/
-		top:-35px;
-		left: 370px;
-		text-align: left;
-		width: 310px;
-	}
-
-	.main_slider .carousel-caption .item_text{
-		text-align: left;
-		width: 310px;
-		height: 115px;
-		overflow: hidden;
-	}
-
-	.main_slider .item h3{
-		font-size: 16px;
-		height: 35px;
-		overflow: hidden;
-	}
-
-	.main_slider .item p{
-		color: #000;
-		font-size: 12px;
-	}
-
-	.main_slider .carousel-caption a.btn {
-		margin-top: 5px;
-		padding-left: 15px;
-		padding-top: 3px;
-		padding-bottom: 3px;
-		padding-right: 15px;
-	}
-	/* Конец стиль слайдера*/
-	
-}
-
-@media only screen and (max-width : 715px) {
-	/*Стиль слайдера*/
-
-	.main_slider img{
-		width: 100%;
-		height: 100% !important;
-	}
-
-	.main_slider .carousel-inner .item .carousel-caption{
-		position: relative;
-		margin: 0;
-		padding: 0;
+		.main_slider .carousel-inner .item .carousel-caption{
+			position: relative;
+			margin: 0;
+			padding: 0;
 		/*top:300px;
 		left: 50px;*/
 		/*text-align: center;*/
@@ -625,112 +662,112 @@
 
 		/*.owl-carousel .item {
 			margin-left: 20px;
-		}*/
-	}
-
-	/* Для настройки отображения навигатора страниц */
-	@media only screen and (max-width : 580px) {
-
-		.form_find {
-			left: -20px;
-			top: 40px;
+			}*/
 		}
 
-		.pages ul li a.first {
-			border: 1px solid grey;
-			border-radius: 15px 0 0 15px;
-			color: #fff;
-			display: block;
-			font-size: 14px;
-			padding: 5px;
-			text-align: center;
-			width: 30px;
-		}
+		/* Для настройки отображения навигатора страниц */
+		@media only screen and (max-width : 580px) {
 
-		.pages ul li a{
-			display: block;
-			background-color: #43484C;
-			padding: 5px;
-			text-align: center;
-			color: #fff;
-			border: 1px solid grey;
-			font-size: 14px;
-			width: 30px;
-		}
+			.form_find {
+				left: -20px;
+				top: 40px;
+			}
 
-		.pages ul li a.active{
-			color: yellow;
-			background-color:#000;
-			border: 1px solid yellow;
-		}
+			.pages ul li a.first {
+				border: 1px solid grey;
+				border-radius: 15px 0 0 15px;
+				color: #fff;
+				display: block;
+				font-size: 14px;
+				padding: 5px;
+				text-align: center;
+				width: 30px;
+			}
 
-		.pages ul li a.end {
-			display: block;
-			background-color: #43484C;
-			padding: 5px;
-			text-align: center;
-			color: #fff;
-			border: 1px solid grey;
-			font-size: 14px;
-			width: 30px;
-			border-radius: 0 15px 15px 0;
-		}
+			.pages ul li a{
+				display: block;
+				background-color: #43484C;
+				padding: 5px;
+				text-align: center;
+				color: #fff;
+				border: 1px solid grey;
+				font-size: 14px;
+				width: 30px;
+			}
 
-		.pages ul li a:hover{
-			text-decoration: none;
-			color: yellow;
-			background-color:#000;
-			border: 1px solid yellow;
-		}
+			.pages ul li a.active{
+				color: yellow;
+				background-color:#000;
+				border: 1px solid yellow;
+			}
 
-		/* Слайдер */
-		.carousel-indicators{
-			left: 65%;
-			width: 30%;
-		}
+			.pages ul li a.end {
+				display: block;
+				background-color: #43484C;
+				padding: 5px;
+				text-align: center;
+				color: #fff;
+				border: 1px solid grey;
+				font-size: 14px;
+				width: 30px;
+				border-radius: 0 15px 15px 0;
+			}
 
-		/* Стили слайдера модуля розыска */
+			.pages ul li a:hover{
+				text-decoration: none;
+				color: yellow;
+				background-color:#000;
+				border: 1px solid yellow;
+			}
 
-		#carousel-wanted_pets.carousel.slide{
-			height: 780px;
-			position: relative;
-		}
-		#carousel-wanted_pets .carousel-inner{
-			height: 100%;
-		}
+			/* Слайдер */
+			.carousel-indicators{
+				left: 65%;
+				width: 30%;
+			}
 
-		#carousel-wanted_pets .carousel-inner .item{
-			margin: 0;
-			padding: 0;
-			height: 100%;
-		}
+			/* Стили слайдера модуля розыска */
 
-		#carousel-wanted_pets .carousel-inner .item img{
-			margin: 0 auto;
-			padding:5px;
-			height: 300px;
-			width: 100%;
-		}
-		#carousel-wanted_pets .carousel-inner .item .carousel-caption{
-			display: inline-block;
-			height: 300px;
-			width: 95%;
-			position: static;
-			margin-top: 100px;
-		}
-		.contact-info{
-			margin-left: 23px;
-			width: 100%;
-		}
+			#carousel-wanted_pets.carousel.slide{
+				height: 780px;
+				position: relative;
+			}
+			#carousel-wanted_pets .carousel-inner{
+				height: 100%;
+			}
 
-		#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-			background-color: transparent;
-			display: block;
-			left: 15%;
-			margin: 0;
-			top: 320px;
-			width: 450px;
-		}
+			#carousel-wanted_pets .carousel-inner .item{
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+
+			#carousel-wanted_pets .carousel-inner .item img{
+				margin: 0 auto;
+				padding:5px;
+				height: 300px;
+				width: 100%;
+			}
+			#carousel-wanted_pets .carousel-inner .item .carousel-caption{
+				display: inline-block;
+				height: 300px;
+				width: 95%;
+				position: static;
+				margin-top: 100px;
+			}
+			.contact-info{
+				margin-left: 23px;
+				width: 100%;
+			}
+
+			#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+				background-color: transparent;
+				display: block;
+				left: 15%;
+				margin: 0;
+				top: 320px;
+				width: 450px;
+			}
 
 		/*#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
 			margin-top: 20px;
@@ -857,31 +894,31 @@
 			/* Слайдер рекламных банеров*/
 			/*.owl-carousel .item {
 				margin-left: 85px;
-			}*/
+				}*/
 
-			/* Слайдер */
-			.carousel-indicators{
-				left: 63%;
-				width: 35%;
-			}
+				/* Слайдер */
+				.carousel-indicators{
+					left: 63%;
+					width: 35%;
+				}
 
-			/* Стили слайдера модуля розыска */
+				/* Стили слайдера модуля розыска */
 
-			#carousel-wanted_pets .carousel-inner .item img{
-				margin: 0 auto;
-				padding:5px;
-				height: 250px;
-				width: 100%;
-			}
+				#carousel-wanted_pets .carousel-inner .item img{
+					margin: 0 auto;
+					padding:5px;
+					height: 250px;
+					width: 100%;
+				}
 
-			#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-				background-color: transparent;
-				display: block;
-				left: 10%;
-				margin: 0;
-				top: 280px;
-				width: 400px;
-			}
+				#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+					background-color: transparent;
+					display: block;
+					left: 10%;
+					margin: 0;
+					top: 280px;
+					width: 400px;
+				}
 
 		/*#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
 			margin-top: 20px;
@@ -1006,50 +1043,50 @@
 			}
 			/*.owl-carousel .item {
 				margin-left: 0px;
-			}*/
-			.post_image img{
-				max-width: 230px;
-				max-height: 200px;
-				margin-right: 20px;
-				margin-bottom: 20px;
+				}*/
+				.post_image img{
+					max-width: 230px;
+					max-height: 200px;
+					margin-right: 20px;
+					margin-bottom: 20px;
+				}
+
+				.post_metainfo li{
+					display: block;
+					float: none;
+					margin: 0 auto;
+					font-size: 0.85em;
+					line-height: 2.1em;
+				}
+				/* Элементы управления слайдера*/
+				.carousel-indicators{
+					left: 55%;
+					width: 50%;
+				}
 			}
 
-			.post_metainfo li{
-				display: block;
-				float: none;
-				margin: 0 auto;
-				font-size: 0.85em;
-				line-height: 2.1em;
+
+
+
+			/*==========  Mobile First Method  ==========*/
+
+			/* Custom, iPhone Retina */
+			@media only screen and (min-width : 320px) {
+
 			}
-			/* Элементы управления слайдера*/
-			.carousel-indicators{
-				left: 55%;
-				width: 50%;
+
+			/* Extra Small Devices, Phones */
+			@media only screen and (min-width : 480px) {
+				.phones{
+					display: block !important;
+				}	
 			}
-		}
 
-
-
-
-		/*==========  Mobile First Method  ==========*/
-
-		/* Custom, iPhone Retina */
-		@media only screen and (min-width : 320px) {
-
-		}
-
-		/* Extra Small Devices, Phones */
-		@media only screen and (min-width : 480px) {
-			.phones{
-				display: block !important;
-			}	
-		}
-
-		/* Small Devices, Tablets */
-		@media only screen and (min-width : 768px) {
-			.top_links{
-				display: inline-block !important;
-			}
+			/* Small Devices, Tablets */
+			@media only screen and (min-width : 768px) {
+				.top_links{
+					display: inline-block !important;
+				}
 		/*	.main_menu ul{
 				display: inline-block;
 				}*/
