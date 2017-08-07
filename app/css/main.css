@@ -1426,7 +1426,8 @@ ul.profil_menu li i{
 		margin-top: 0px;
 		margin-bottom: 0px;
 		height: 100px;
-		text-align: center;
+		text-align: left;
+		padding-left: 10px;
 		/*overflow: hidden;  Скрытие контента, если он превышает размер блока */
 	}
 	.article_main_widget h3 > a {
@@ -1549,6 +1550,7 @@ ul.profil_menu li i{
 		height: 100px;
 		overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 		z-index: 10;
+		border: 1px dotted #43484c;
 	}
 	.article_widget:hover{
 		border: none;
@@ -1588,7 +1590,7 @@ ul.profil_menu li i{
 	}
 
 	.article_img{
-		border: 1px solid #43484C;
+		/*border: 1px solid #43484C;*/
 		padding-top: 0px;
 		float: left;
 		width: 150px;
@@ -1643,6 +1645,7 @@ ul.profil_menu li i{
 		-webkit-transition: all .5s;
 		-o-transition: all .5s;
 		transition: all .5s;
+		border: 1px dotted #43484C;
 	}
 
 	.article_post a{
