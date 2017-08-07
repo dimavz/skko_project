@@ -915,18 +915,22 @@ ul.profil_menu li i{
 		margin-bottom: 20px;
 		border: #4EC698 3px solid;
 		border-radius:0.3em;
-		padding-top: 20px;
-		height: 200px;
+		/*padding-top: 20px;*/
+		/*height: 200px;*/
 		background-color: #fff;
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	}
+
+	.part_links div{
+		padding: 20px;
 	}
 
 	.part_links h2 {
 		color: #4ec698;
 		font-family: "RobotoRegular",sans-serif;
 		font-size: 20px;
-		margin-bottom: 10px;
-		margin-top: 0;
+		margin-bottom: 20px;
+		margin-top: 20px;
 		padding-left: 15px;
 		text-transform: uppercase;
 	}
