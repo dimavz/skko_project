@@ -910,6 +910,10 @@ ul.profil_menu li i{
 			-o-transition:all .35s ;
 			transition:all .35s ;
 		}
+		.body_panel ul li.active a{
+			color: yellow;
+			background-color: #396B62;
+		}
 		.body_panel ul li a img{
 			margin-top: 5px;
 			padding: 5px;
