@@ -1036,6 +1036,7 @@ ul.profil_menu li i{
 		.post_text{
 			display: block;
 			margin-bottom: 60px;
+			min-height:200px;
 		}
 		.post_info{
 			position: relative;
