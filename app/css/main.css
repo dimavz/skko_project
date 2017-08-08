@@ -446,6 +446,10 @@ ul.profil_menu li i{
 			text-decoration: none;
 		}
 
+		.path_links span.active{
+			color: yellow;
+		}
+
 		.main_menu a{
 			color: #fff;
 			padding: 10px  15px;
