@@ -700,8 +700,8 @@ ul.profil_menu li i{
 		/* Слайдер рекламных банеров */
 		.owl-carousel{
 			height: 195px;
-			margin-top: 40px;
-			margin-bottom: 20px;
+			margin-top: 0px;
+			margin-bottom: 10px;
 			padding-left: 60px;
 			padding-right: 40px;
 			padding-top: 20px;
@@ -954,6 +954,9 @@ ul.profil_menu li i{
 
 		.part_links div{
 			padding: 20px;
+		}
+		.part_links div img.map{
+			width: 100%;
 		}
 
 		.part_links h2 {
@@ -1388,9 +1391,9 @@ ul.profil_menu li i{
 
 		.article-row{
 			display: inline-block;
-			margin-top: 15px;
+			margin-top: 0px;
 			padding: 5px;
-			padding-bottom: 55px;
+			/*padding-bottom: 55px;*/
 			width: 100%;
 			position: relative; 
 			overflow: hidden;
@@ -1468,7 +1471,7 @@ ul.profil_menu li i{
 
 		/* Виджет модуля главной статьи */
 		.article_main_widget{
-			margin-bottom: 20px;
+			margin-bottom: 0px;
 			padding-top: 0px;
 			text-align: left;
 			position: relative;
@@ -1617,13 +1620,16 @@ ul.profil_menu li i{
 		}
 
 		.article_main_header h3 a:hover{
-			color:yellow;
+			color:#000;
 			text-decoration: underline;
 		}
-
+		.article_main_post > a{
+			color: #000;
+		}
 		.article_main_post > a:hover{
 			text-decoration: none;
 			background-color: transparent;
+			color: #000;
 		}
 		/*Конец вида главной статьи */
 
@@ -1700,6 +1706,7 @@ ul.profil_menu li i{
 		}
 
 		.article_header{
+			position: relative;
 			float: left;
 			height: 100px;
 			width: 70%;
@@ -1711,13 +1718,15 @@ ul.profil_menu li i{
 		}
 
 		.article_header h3{
-			margin-top: -10px;
+			margin-top: 10px;
 		}
 
 		.article_header .article_data{
-			margin-top: -25px;
-			padding-left: 10px;
+			position: absolute;
+			top: 0px;
+			left: 10px;
 			color: #396B62;
+			font-size: 14px;
 		}
 
 		.article_post{
