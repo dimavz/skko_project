@@ -326,8 +326,15 @@ ul.profil_menu li i{
 
 	.logo_img{
 		width:250px;
-		height: 250px;
+		/*height: 250px;*/
 		text-align: center;
+	}
+	.logo_img h1{
+		text-align: center;
+		font-size: 102px;
+		color: white;
+		margin-top: 10px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
 	.logo_text{
@@ -357,6 +364,7 @@ ul.profil_menu li i{
 		font-family: "RobotoRegular", sans-serif;
 		font-size: 42px;
 		margin-top: 70px;
+		text-align: left;
 	}
 
 	.greeting span {
