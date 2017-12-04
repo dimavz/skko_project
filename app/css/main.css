@@ -171,6 +171,7 @@ ul.profil_menu li i{
 }
 #header_topline .container .row ul{
 	padding-left: 0px;
+	padding-top: 5px;
 	margin-left: 0px;
 }
 
@@ -179,6 +180,13 @@ ul.profil_menu li i{
 	padding: 5px;
 	margin-right: 10px;
 	text-transform: uppercase;
+}
+
+#header_topline .container .row ul li.active a{
+	color: yellow;
+}
+#header_topline .container .row ul li.active a:hover{
+	background-color: transparent;
 }
 
 #header_topline .container .row ul li span.glyphicon-home{
