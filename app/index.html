@@ -26,135 +26,83 @@
 </head>
 <body>
 	<header class="top_header">
+		
 		<nav id="header_topline" class="navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
-					<div class="top_main_menu">
-						<div class="form_search">
-							<form class="form-inline ">
-								<div class="form-group">
-									<label class="sr-only" for="InputFind">Поиск</label>
-									<div class="input-group">
-										<input type="text" class="form-control" id="InputFind" placeholder="Что ищем?">
-										<div class="input-group-addon btn btn-info" type="submit">Найти</div>
-									</div>
-								</div>
-							</form>
-						</div>
-						
-						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-							<div class="panel panel-info">
-								<div class="panel-heading" >
-									<h4 class="panel-title">
-										<a href="#">
-											Главная
-										</a>
-									</h4>
-								</div>
-							</div>
-							<div class="panel panel-info">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a class="collapsed"  data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false">
-											Новости
-										</a>
-									</h4>
-								</div>
-								<div id="collapse2" class="panel-collapse collapse">
-									<div class="panel-body">
-										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-info">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false">
-											Объявления
-											<i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-										</a>
-									</h4>
-								</div>
-								<div id="collapse3" class="panel-collapse collapse">
-									<div class="panel-body">
-										<ul>
-											<li><a href="#">Продать/Купить Хаски</a></li>
-											<li><a href="#">Дрессировка собак</a></li>
-											<li><a href="#">Знакомства для вязки</a></li>
-											<li><a href="#">Медицина и ветеринария</a></li>
-											<li><a href="#">Гроуминг и стрижки</a></li>
-											<li><a href="#">Розыск собаки</a></li>
-											<li><a href="#">Ищу хозяина</a></li>
-											<li><a href="#">Прочее</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
+							<ul>
+								<li class="home active">
+									<a href="/" title="Главная">
+										<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Главная
+									</a>
+								</li>
+								<li class="dropdown">
+									<span id="dLabe1" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										О системе
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</span>
+									<ul class="dropdown-menu" aria-labelledby="dLabe1">
+										<li><a href="#">Описание СККО</a></li>
+									</ul>
+								</li>
+								<li class="dropdown active">
+									<span id="dLabe4" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										Владельцам
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</span>
+									<ul class="dropdown-menu" aria-labelledby="dLabe4">
+										<li><a href="list_articles.html">Порядок заключения договора</a></li>
+										<li class="active"><a href="#">Документы</a></li>
+										<li><a href="#">График подключения кассового оборудования к СККО</a></li>
+										<li><a href="#">Тарифы и способы оплаты</a></li>
+										<li><a href="#">Вопросы/Ответы</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<span id="dLabe3" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										Публикации
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</span>
+									<ul class="dropdown-menu" aria-labelledby="dLabe3">
+										<li><a href="#">Новости</a></li>
+										<li><a href="#">Нормативные правовые акты</a></li>
+										<li><a href="#">Разъяснения МНС</a></li>
+										
+									</ul>
+								</li>
+								<li class="dropdown">
+									<span id="dLabe2" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										ЦТО
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</span>
+									<ul class="dropdown-menu" aria-labelledby="dLabe2">
+										<li><a href="#">Перечень ЦТО</a></li>
+									</ul>
+								</li>
 
-							<div class="panel panel-info">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false">
-											Полезное
-											<i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-										</a>
-									</h4>
-								</div>
-								<div id="collapse4" class="panel-collapse collapse">
-									<div class="panel-body">
-										<ul>
-											<li><a href="#">Продать/Купить Хаски</a></li>
-											<li><a href="#">Дрессировка собак</a></li>
-											<li><a href="#">Знакомства для вязки</a></li>
-											<li><a href="#">Медицина и ветеринария</a></li>
-											<li><a href="#">Гроуминг и стрижки</a></li>
-											<li><a href="#">Розыск собаки</a></li>
-											<li><a href="#">Ищу хозяина</a></li>
-											<li><a href="#">Прочее</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div><!-- /.top_main_menu -->
-					<div class="col-md-6 col-sm-6 col-xs-3">
-						<div class="top_brand">
-							<button class="menu_button hidden-sm hidden-md hidden-lg">
-								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-							</button>
-							<h1 class="hidden-xs wow fadeInDown">SKKO.BY</h1>
-						</div>
-						<div class="icon_search visible-sm-block"><i class="fa fa-search fa-2x" aria-hidden="true"></i>
-
-						</div>
-						<div class="top_search hidden-xs">
-							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-							<div class="form_find">
-								<form class="form-inline ">
-									<div class="form-group">
-										<label class="sr-only" for="InputSearch">Поиск</label>
-										<div class="input-group">
-											<input type="text" class="form-control" id="InputSearch" placeholder="Что ищем?" size="150" width="250px">
-											<div class="input-group-addon btn btn-success" type="submit">Найти</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div><!-- /.top_search -->
-					</div>
-					<div class="col-md-6 col-sm-6 col-xs-9">
-						<div class="icon_phone">
-							<i class="fa fa-phone-square fa-lg fa-2x" aria-hidden="true"></i>
-						</div>
-						<div class="phones">
-							<i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>
-							8 (017) 269-18-00, 8 (017) 269-18-09
-						</div>
-					</div>
+								<li class="dropdown">
+									<span id="dLabe5" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										Контакты
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</span>
+									<ul class="dropdown-menu" aria-labelledby="dLabe5">
+										<li><a href="#">Структурные подразделения</a></li>
+										<li><a href="#">Бухгалтерия</a></li>
+										<li><a href="#">График работы</a></li>
+										<li><a href="#">Техническая поддержка</a></li>
+										<li><a href="#">Размещение рекламы</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										<span id="dLabe6" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+											Карта сайта
+										</span>
+									</a>
+								</li>
+							</ul>
 				</div><!-- /.row -->
-			</div>
+			</div><!-- /.container -->
 		</nav>
 		<div class="container">
 			<div class="row">
