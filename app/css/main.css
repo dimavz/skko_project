@@ -231,9 +231,6 @@ li.link a:hover{
 
 .top_search{
 	display: inline-block;
-	position: absolute;
-	padding-left: 20px;
-	left: 370px;
 }
 
 .top_search  span {
@@ -254,7 +251,7 @@ li.link a:hover{
 		position: absolute;
 		top:-3px;
 		left: 60px;
-		width: 250px;
+		width: 200px;
 		height: 50px;
 		z-index: 30;
 	}
@@ -343,7 +340,7 @@ li.link a:hover{
 
 	.logo_text{
 		margin-top: -55px;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 	.logo_title h1{
@@ -376,7 +373,7 @@ li.link a:hover{
 		color: yellow;
 		font-family: "RobotoRegular", sans-serif;
 		text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.notice{
@@ -435,6 +432,7 @@ li.link a:hover{
 	.main_menu{
 		top:50px;
 		width: 1170px;
+		height: 50px;
 		z-index: 100;
 		background-color: #43484C;
 		color: #fff;
