@@ -650,6 +650,49 @@ li.link a:hover{
 			color: yellow;
 		}
 
+		nav.main_menu .run_string{
+			display: block;
+			padding-top: 10px;
+		}
+		.icon_chevron{
+			display: inline-block;
+		}
+
+		.icon_chevron .fa-chevron-right.fa-lg{
+			position: absolute;
+			top: 18px;
+			left: 30px;
+		}
+
+		.icon_chevron .fa-chevron-right.fa-2x{
+			position: absolute;
+			top: 10px;
+			left: 12px;
+		}
+
+		.icon_chevron .fa-chevron-right{
+			position: absolute;
+			top: 18px;
+			left: 8px;
+			color: #4EC698;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+		}
+		.string_content{
+			display: inline-block;
+			margin-left: 40px;
+			margin-top: -4px;
+			color:#06fc23;
+			font-size: 24px;
+		}
+		.string_content span{
+			color: yellow;
+		}
+		.string_content marquee {
+			position: absolute;
+			top: 7px;
+			left: 50px;
+		}
+
 		.main_menu_bt {
 			color: #fff;
 			padding: 3px 10px;
