@@ -896,58 +896,58 @@
 				width: 100%;
 			}
 
-				/* Слайдер */
-				.carousel-indicators{
-					left: 63%;
-					width: 35%;
-				}
+			/* Слайдер */
+			.carousel-indicators{
+				left: 63%;
+				width: 35%;
+			}
 
-				/* Стили модуля новостей*/
-				.article_main_widget {
-					height: 326px;
-				}
-				.article_main_widget > div {
-					height: 326px;
-				}
-				.article_main_content {
-					top: 73%;
-				}
-				.article_main_header .data {
-					width: 30%;
-				}
-				.article_main_header h3 {
-					width: 70%;
-				}
-				.article_main_widget h3 {
-					font-size: 1em;
-					padding-left: 10px;
-					text-align: left;
-				}
-				.article_main_header .data {
-					height: 85px;
-				}
-				.article_header .article_data {
-					top: 0px;
-				}
-				/* Конец стилей модуля новостей*/
+			/* Стили модуля новостей*/
+			.article_main_widget {
+				height: 326px;
+			}
+			.article_main_widget > div {
+				height: 326px;
+			}
+			.article_main_content {
+				top: 73%;
+			}
+			.article_main_header .data {
+				width: 30%;
+			}
+			.article_main_header h3 {
+				width: 70%;
+			}
+			.article_main_widget h3 {
+				font-size: 1em;
+				padding-left: 10px;
+				text-align: left;
+			}
+			.article_main_header .data {
+				height: 85px;
+			}
+			.article_header .article_data {
+				top: 0px;
+			}
+			/* Конец стилей модуля новостей*/
 
-				/* Стили слайдера модуля розыска */
+			/* Стили слайдера модуля розыска */
 
-				#carousel-wanted_pets .carousel-inner .item img{
-					margin: 0 auto;
-					padding:5px;
-					height: 250px;
-					width: 100%;
-				}
+			#carousel-wanted_pets .carousel-inner .item img{
+				margin: 0 auto;
+				padding:5px;
+				height: 250px;
+				width: 100%;
+			}
 
-				#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-					background-color: transparent;
-					display: block;
-					left: 10%;
-					margin: 0;
-					top: 280px;
-					width: 400px;
-				}
+			#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+				background-color: transparent;
+				display: block;
+				left: 10%;
+				margin: 0;
+				top: 280px;
+				width: 400px;
+			}
 
 		/*#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
 			margin-top: 20px;
@@ -1222,15 +1222,10 @@
 				.form_find{
 					display: inline-block !important;
 				}
-				.top_search{
-					display: block !important;
-					left: 370px !important;
-					top:0 !important;
-				}
-				
 			}
 
 			/* Large Devices, Wide Screens */
 			@media only screen and (min-width : 1200px) {
 				
 			}
+		}

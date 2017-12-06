@@ -231,6 +231,9 @@ li.link a:hover{
 
 .top_search{
 	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 22px;
 }
 
 .top_search  span {
@@ -243,13 +246,10 @@ li.link a:hover{
 	color: #4EC698;
 }
 
-/*.top_search  span:hover{
-	color: yellow;
-	}*/
 
 	.form_find{
 		position: absolute;
-		top:-3px;
+		top:-4px;
 		left: 60px;
 		width: 200px;
 		height: 50px;
@@ -259,6 +259,8 @@ li.link a:hover{
 	.form_find .form-inline .form-group  input{
 		width: 300px;
 		padding-left: 45px;
+		border-top-right-radius: 0.3em;
+		border-bottom-right-radius: 0.3em;
 	}
 
 	.form_find .form-group{
@@ -266,9 +268,22 @@ li.link a:hover{
 		border-radius:5px;
 	}
 
-	.form_find .form-group .input-group-addon{
+	.form_find .form-group button.input-group-addon{
+		position: absolute;
+		font-size: 18px;
+		top: 0px;
+		right: 0px;
+		height: 34px;
+		width: 75px;
 		background-color: #4EC698;
 		color: #fff;
+		z-index: 30;
+		border-top-right-radius: 0.3em;
+		border-bottom-right-radius: 0.3em;
+	}
+
+	.form_find .form-group button.input-group-addon:hover{
+		color: yellow;
 	}
 
 	.top_login{
@@ -369,15 +384,17 @@ li.link a:hover{
 		font-family: "RobotoRegular", sans-serif;
 		font-size: 30px;
 		text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
-		margin-top: 70px;
+		margin-top: 75px;
 		text-align: left;
 	}
 
-	.greeting span {
+	.greeting #slog    {
+		position: absolute;
 		color: yellow;
 		font-family: "RobotoRegular", sans-serif;
 		text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
 		font-size: 18px;
+		top: 151px;
 	}
 
 	.notice{
@@ -403,12 +420,18 @@ li.link a:hover{
 		background-color: #396B62;
 		vertical-align: center;
 		font-size:22px;
-		margin-top: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom: 5px;
 		padding: 5px;
 		width: 100%;
 		height: 50px;
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+	}
+
+	.wraper_logo .greeting #btn_mail.btn.btn-success  {
+		margin-bottom: 15px;
 	}
 
 	.wraper_logo .btn.btn-success:hover{
@@ -443,7 +466,7 @@ li.link a:hover{
 		margin-right: -15px;
 		margin-left: -15px;
 		margin-bottom: 20px;
-		margin-top: 15px;
+		/*margin-top: 10px;*/
 		border-radius:0.3em ;
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		border: 1px solid #fff;
