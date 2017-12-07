@@ -204,7 +204,8 @@ ul.profil_menu li i{
 #header_topline .container .row ul li ul.dropdown-menu li a{
 	/*background-color: #4EC698;*/
 	margin: 0px;
-	border:1px solid #4EC698;
+	border-left:1px solid #4EC698;
+	border-bottom:1px solid #4EC698;
 	/*color:#4EC698;*/
 }
 
