@@ -2,6 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.top_header{
+		height: 210px;
+	}
 	.logo_text{
 		display: block;
 		float: left;
@@ -10,24 +13,45 @@
 		height: 250px;
 	}
 	.greeting h3 {
-		font-size: 38px;
-		margin-top: 70px;
+		font-size: 30px;
+		margin-top: 75px;
+		margin-left: 50px;
+	}
+
+	.greeting #slog {
+		font-size: 18px;
+		top: 152px;
+		left: 65px;
 	}
 	/* Форма поиска */ 
+	.top_search {
+		left: 152px;
+	}
 	.top_search span {
-		left: -95px;
+		left: -96px;
+		top: -3px;
 	}
 	.phones{
-		font-size: 16px;
-		margin-right: -10px;
+		font-size: 18px;
+		margin-right: -55px;
 		padding-top: 3px;
 	}
 	.form_find {
 		left: -105px;
+		top:-7px;
+	}
+
+	.form_find .form-inline .form-group input {
+		width: 270px;
+		height: 30px;
+	}
+	.form_find .form-group button.input-group-addon {
+		height: 30px;
 	}
 
 	.wraper_logo .greeting .btn.btn-success {
-		font-size: 20px;
+		font-size: 18px;
+		height: 40px;
 	}
 	
 	.notice {
@@ -38,7 +62,21 @@
 	}
 
 	.main_menu {
+		position: absolute;
+		top:-50px;
 		width: 970px;
+		height: 40px;
+	}
+
+	.string_content marquee {
+		top: 2px;
+		font-size: 22px;
+	}
+
+	.icon_chevron{
+		position: absolute;
+		top:-7px;
+		left: 0px;
 	}
 
 	/*Стиль слайдера*/
@@ -163,6 +201,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+	.top_header{
+		height: 160px;
+	}
+
+	#header_topline .container .row ul {
+		font-size: 14px;
+	}
+
 	.logo_img {
 		width: 200px;
 		height: 200px;
@@ -172,13 +219,37 @@
 		height: 200px;
 	}
 
+	.logo_img h1 {
+		font-size: 70px;
+	}
+
 	/* Форма поиска */ 
 	.top_search{
 		position: absolute;
-		display: none;
-		top: 45px;
-		left: 330px;
+		display: block;
+		top: -21px;
+		left: 608px;
 	}
+
+	.top_search span {
+		left: -99px;
+		top: -2px;
+		font-size: 20px;
+	}
+
+	.form_find .form-inline .form-group input {
+		width: 240px;
+		height: 24px;
+		font-size: 12px;
+	}
+
+	.form_find .form-group button.input-group-addon {
+		height: 24px;
+		width: 60px;
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+
 
 	.logo_text{
 		display: block;
@@ -211,12 +282,20 @@
 	}
 
 	.greeting h3 {
-		font-size: 24px;
-		margin-top: 100px;
+		font-size: 22px;
+		margin-top: 90px;
 		width: 345px;
 	}
 	.greeting span {
 		font-size: 16px;
+	}
+	.greeting #slog {
+		font-size: 14px;
+	}
+	.phones{
+		position: absolute;
+		top:89px;
+		left: 50px;
 	}
 	.notice {
 		height: 75px;
@@ -227,7 +306,7 @@
 		margin-left: -15px;
 	}
 	.wraper_logo .greeting .btn.btn-success {
-		font-size: 18px;
+		font-size: 16px;
 		height: 35px;
 		margin-left: 0px;
 		margin-top: 10px;
@@ -242,6 +321,7 @@
 
 	.main_menu {
 		width: 750px;
+		top:-85px;
 	}
 
 	.main_menu a {
@@ -250,6 +330,12 @@
 
 	.main_menu ul li span.header {
 		padding: 5px 7px;
+	}
+
+	.string_content marquee {
+		top: 5px;
+		font-size: 18px;
+		width: 350px;
 	}
 
 	.article_main_widget {
