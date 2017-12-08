@@ -239,12 +239,12 @@
 
 	.form_find .form-inline .form-group input {
 		width: 240px;
-		height: 24px;
+		height: 26px;
 		font-size: 12px;
 	}
 
 	.form_find .form-group button.input-group-addon {
-		height: 24px;
+		height: 26px;
 		width: 60px;
 		font-size: 12px;
 		padding-bottom: 5px;
