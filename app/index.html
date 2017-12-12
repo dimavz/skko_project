@@ -30,7 +30,16 @@
 		<nav id="header_topline" class="navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
-					<ul>
+					<div class="menu_icon visible-xs-block">
+						<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="run_str display-xs-block hidden-sm hidden-md hidden-lg">
+						<marquee onmouseover=this.stop() onmouseout=this.start() behavior="scroll" direction="left">
+										<span>ВНИМАНИЕ!!!</span>
+										В связи с проводимыми техническими работами некоторые сервисы будут недоступны.
+									</marquee>
+					</div>
+					<ul class="hidden-xs">
 						<li class="home active">
 							<a href="/" title="Главная">
 								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Главная
@@ -118,9 +127,6 @@
 					</div>
 					<div class="col-md-9 col-sm-9 col-xs-8">
 						<div class="logo_text">
-							<div class="logo_title visible-xs-block">
-								<h1><a href="/">SKKO.BY</a></h1>
-							</div>
 							<div class="greeting wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.5s" >
 								<div class="row">
 									<div class="col-md-9 col-sm-9">
@@ -128,7 +134,7 @@
 										<span id="slog">Управляйте своим бизнесом через Internet</span>
 									</div>
 									<div class="col-md-3 col-sm-3">
-										<a class="btn btn-success " href="#" role="button">
+										<a class="btn btn-success ru" href="#" role="button">
 											<i class="fa fa-key" aria-hidden="true"></i>
 											Войти с ЭЦП
 										</a>
@@ -143,7 +149,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<nav class="main_menu hidden-xs affix" data-spy="affix" data-offset-top="150">
+					<nav class="main_menu affix-top" data-spy="affix" data-offset-top="150">
 						<div class="col-md-8">
 							<div class="run_string">
 								<div class="icon_chevron">
