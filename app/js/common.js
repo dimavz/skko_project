@@ -90,8 +90,9 @@ $(document).ready(function() {
 	owl.owlCarousel({
 		loop:true,
 		margin:10,
-		// nav:true,
-		// autoHeight:true,
+        //merge:true,
+		//nav:true,
+		//autoHeight:true,
 		autoplay:true,
 		autoplayTimeout:2000,
 		autoplayHoverPause:true,
@@ -101,16 +102,19 @@ $(document).ready(function() {
 				items:1
 			},
 			480 : {
+				items:1
+			},
+			600:{
 				items:2
 			},
 			768:{
-				items:3
+				items:2
 			},
 			1024:{
-				items:4
+				items:3
 			},
 			1200:{
-				items:5
+				items:4
 			}
 		}
 	});
