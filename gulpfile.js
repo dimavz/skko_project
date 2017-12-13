@@ -2,7 +2,7 @@ var gulp     = require('gulp'),
 		sass     = require('gulp-sass'),
 		browser  = require('browser-sync'),
 		concat   = require('gulp-concat'),
-		uglify   = require('gulp-uglifyjs'),
+		uglify   = require('gulp-uglify'),
 		cssnano  = require('gulp-cssnano'),
 		rename   = require('gulp-rename'),
 		del      = require('del'),
@@ -22,9 +22,8 @@ gulp.task('mytask', function(){
 */
 
 gulp.task('sass', function(){
-	return gulp.src('app/sass/**/*.sass','app/sсss/**/*scss')
-	.pipe(concat('main.css'))
-	.pipe(sass())
+	return gulp.src('app/scss/**/*scss')
+	.pipe(sass()).pipe(concat('main.css'))
 	.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
 	.pipe(gulp.dest('app/css'))
 	.pipe(browser.reload({stream: true}))
@@ -76,7 +75,7 @@ gulp.task('img', function() {
 });
 
 gulp.task('watch',['browser','csslibs', 'scripts'], function(){
-	gulp.watch('app/sass/**/*.sass', ['sass']);
+	gulp.watch('app/scss/**/*.scss', ['sass']);
 	gulp.watch('app/**/*.html', browser.reload);
 	gulp.watch('app/js/**/*.js', browser.reload);
 	gulp.watch('app/css/**/*.css', browser.reload);
