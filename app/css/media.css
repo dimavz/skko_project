@@ -722,9 +722,19 @@
 		}
 		/* Конец стиль слайдера*/
 
+			.top_header{
+				height:110px;
+			}
+			#top_banners {
+				margin-top: 60px;
+
 	}
 
 	@media only screen and (max-width : 715px) {
+
+		.wraper_logo .greeting .row .col-md-3 {
+			padding-left: 0px;
+		}
 
 		.wraper_logo .col-md-3.col-sm-3.col-xs-4{
 			width: 100%;
@@ -758,6 +768,12 @@
 			margin-top: 5px;
 			font-size: 18px;
 		}
+
+		.top_header{
+				height:160px;
+			}
+			#top_banners {
+				margin-top: 60px;
 		/*Стиль слайдера*/
 
 		#top_banners{
@@ -779,152 +795,145 @@
 		width: 100%;
 	}
 
-	/*.main_slider .carousel-inner .item .carousel-caption h3{
-		position: absolute;
-		bottom: 10px;
-		left: -350px;
-		height: 100%;
-		}*/
-
-		.main_slider .carousel-caption .item_text{
-			display:none;
-		}
-
-		.main_slider .carousel-inner .item .carousel-caption h3{
-			display: block;
-			padding-top: 5px;
-			vertical-align: bottom;
-			font-size: 16px;
-			height: 60px;
-			overflow: hidden;
-			position: absolute;
-			bottom: -45px;
-			left: -370px;
-			text-align: center;
-			width: 100%;
-			background-color: yellow;
-			opacity: 0.5;
-		}
-
-		.main_slider .item p{
-			color: #000;
-			font-size: 12px;
-		}
-
-		.main_slider .carousel-caption a.btn {
-			display: none;
-		}
-
-		.carousel-indicators{
-			left: 65%;
-			width: 30%;
-		}
-		/* Конец стиль слайдера*/
+	.main_slider .carousel-caption .item_text{
+		display:none;
 	}
 
-	/* Для настройки отображения навигатора страниц */
-	@media only screen and (max-width : 580px) {
+	.main_slider .carousel-inner .item .carousel-caption h3{
+		display: block;
+		padding-top: 5px;
+		vertical-align: bottom;
+		font-size: 16px;
+		height: 60px;
+		overflow: hidden;
+		position: absolute;
+		bottom: -45px;
+		left: -370px;
+		text-align: center;
+		width: 100%;
+		background-color: yellow;
+		opacity: 0.5;
+	}
 
-		.form_find {
-			left: -20px;
-			top: 40px;
-		}
+	.main_slider .item p{
+		color: #000;
+		font-size: 12px;
+	}
 
-		.pages ul li a.first {
-			border: 1px solid grey;
-			border-radius: 15px 0 0 15px;
-			color: #fff;
-			display: block;
-			font-size: 14px;
-			padding: 5px;
-			text-align: center;
-			width: 30px;
-		}
+	.main_slider .carousel-caption a.btn {
+		display: none;
+	}
 
-		.pages ul li a{
-			display: block;
-			background-color: #43484C;
-			padding: 5px;
-			text-align: center;
-			color: #fff;
-			border: 1px solid grey;
-			font-size: 14px;
-			width: 30px;
-		}
+	.carousel-indicators{
+		left: 65%;
+		width: 30%;
+	}
+	/* Конец стиль слайдера*/
+}
 
-		.pages ul li a.active{
-			color: yellow;
-			background-color:#000;
-			border: 1px solid yellow;
-		}
+/* Для настройки отображения навигатора страниц */
+@media only screen and (max-width : 580px) {
 
-		.pages ul li a.end {
-			display: block;
-			background-color: #43484C;
-			padding: 5px;
-			text-align: center;
-			color: #fff;
-			border: 1px solid grey;
-			font-size: 14px;
-			width: 30px;
-			border-radius: 0 15px 15px 0;
-		}
+	.form_find {
+		left: -20px;
+		top: 40px;
+	}
 
-		.pages ul li a:hover{
-			text-decoration: none;
-			color: yellow;
-			background-color:#000;
-			border: 1px solid yellow;
-		}
+	.pages ul li a.first {
+		border: 1px solid grey;
+		border-radius: 15px 0 0 15px;
+		color: #fff;
+		display: block;
+		font-size: 14px;
+		padding: 5px;
+		text-align: center;
+		width: 30px;
+	}
 
-		/* Слайдер */
-		.carousel-indicators{
-			left: 65%;
-			width: 30%;
-		}
+	.pages ul li a{
+		display: block;
+		background-color: #43484C;
+		padding: 5px;
+		text-align: center;
+		color: #fff;
+		border: 1px solid grey;
+		font-size: 14px;
+		width: 30px;
+	}
 
-		/* Стили слайдера модуля розыска */
+	.pages ul li a.active{
+		color: yellow;
+		background-color:#000;
+		border: 1px solid yellow;
+	}
 
-		#carousel-wanted_pets.carousel.slide{
-			height: 780px;
-			position: relative;
-		}
-		#carousel-wanted_pets .carousel-inner{
-			height: 100%;
-		}
+	.pages ul li a.end {
+		display: block;
+		background-color: #43484C;
+		padding: 5px;
+		text-align: center;
+		color: #fff;
+		border: 1px solid grey;
+		font-size: 14px;
+		width: 30px;
+		border-radius: 0 15px 15px 0;
+	}
 
-		#carousel-wanted_pets .carousel-inner .item{
-			margin: 0;
-			padding: 0;
-			height: 100%;
-		}
+	.pages ul li a:hover{
+		text-decoration: none;
+		color: yellow;
+		background-color:#000;
+		border: 1px solid yellow;
+	}
 
-		#carousel-wanted_pets .carousel-inner .item img{
-			margin: 0 auto;
-			padding:5px;
-			height: 300px;
-			width: 100%;
-		}
-		#carousel-wanted_pets .carousel-inner .item .carousel-caption{
-			display: inline-block;
-			height: 300px;
-			width: 95%;
-			position: static;
-			margin-top: 100px;
-		}
-		.contact-info{
-			margin-left: 23px;
-			width: 100%;
-		}
+	/* Слайдер */
+	.carousel-indicators{
+		left: 65%;
+		width: 30%;
+	}
 
-		#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-			background-color: transparent;
-			display: block;
-			left: 15%;
-			margin: 0;
-			top: 320px;
-			width: 450px;
-		}
+	/* Стили слайдера модуля розыска */
+
+	#carousel-wanted_pets.carousel.slide{
+		height: 780px;
+		position: relative;
+	}
+	#carousel-wanted_pets .carousel-inner{
+		height: 100%;
+	}
+
+	#carousel-wanted_pets .carousel-inner .item{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+
+	#carousel-wanted_pets .carousel-inner .item img{
+		margin: 0 auto;
+		padding:5px;
+		height: 300px;
+		width: 100%;
+	}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption{
+		display: inline-block;
+		height: 300px;
+		width: 95%;
+		position: static;
+		margin-top: 100px;
+	}
+	.contact-info{
+		margin-left: 23px;
+		width: 100%;
+	}
+
+	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+		background-color: transparent;
+		display: block;
+		left: 15%;
+		margin: 0;
+		top: 320px;
+		width: 450px;
+	}
 
 		/*#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
 			margin-top: 20px;
@@ -1121,7 +1130,14 @@
 		}
 
 		/* Изменение отображения логотипа */ 
-		@media only screen and (max-width : 410px) {
+		@media only screen and (max-width : 430px) {
+
+			.top_header{
+				height:160px;
+			}
+			#top_banners {
+				margin-top: 60px;
+			}
 			.top_header .container .row .col-md-3.col-sm-3.col-xs-4{
 				width: 100%;
 			}
@@ -1132,13 +1148,18 @@
 			.wraper_logo .col-md-9.col-sm-9.col-xs-8{
 				width: 100%;
 			}
-			#top_banners {
-				margin-top: 110px;
-			}
+			
 		}
 
 		/* Изменение размеров панели навигации страниц */
-		@media only screen and (max-width : 396px) {
+		@media only screen and (max-width : 415px) {
+
+			.top_header{
+				height:160px;
+			}
+			#top_banners {
+				margin-top: 60px;
+			}
 
 			.form_find {
 				left: -55px;
@@ -1203,7 +1224,21 @@
 			}
 		}
 
-		@media only screen and (max-width : 347px) {
+		@media only screen and (max-width : 384px) {
+			.top_header{
+				height:175px;
+			}
+			#top_banners {
+				margin-top: 65px;
+			}
+
+		@media only screen and (max-width : 375px) {
+			.top_header{
+				height:175px;
+			}
+			#top_banners {
+				margin-top: 65px;
+			}
 			.carousel-indicators{
 				left: 55%;
 				width: 50%;
@@ -1212,6 +1247,15 @@
 
 		/* Custom, iPhone Retina */
 		@media only screen and (max-width : 320px) {
+			.top_header{
+				height:180px;
+			}
+			#top_banners {
+				margin-top: 60px;
+			}
+			.wraper_logo .greeting .row .col-md-3 {
+				padding-left: 0px;
+			}
 
 			.notice {
 				height: 150px;
