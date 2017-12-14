@@ -90,12 +90,11 @@ $(document).ready(function() {
 	owl.owlCarousel({
 		loop:true,
 		margin:10,
-        //merge:true,
-		//nav:true,
-		//autoHeight:true,
+		nav:false,
 		autoplay:true,
+        autoplayHoverPause:true,
+        smartSpeed:1000,
 		autoplayTimeout:2000,
-		autoplayHoverPause:true,
 		dots:false,
 		responsive:{
 			0:{

@@ -22,11 +22,18 @@ gulp.task('mytask', function(){
 */
 
 gulp.task('sass', function(){
-	return gulp.src('app/scss/**/*scss')
+	return gulp.src('app/scss/**/*.scss')
 	.pipe(sass()).pipe(concat('main.css'))
 	.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
 	.pipe(gulp.dest('app/css'))
 	.pipe(browser.reload({stream: true}))
+});
+
+gulp.task('csslibs',['sass'], function(){
+    return gulp.src('app/css/main.css')
+        .pipe(cssnano())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('app/css/'));
 });
 
 gulp.task('scripts', function(){
@@ -39,12 +46,7 @@ gulp.task('scripts', function(){
 	.pipe(gulp.dest('app/js'))
 } );
 
-gulp.task('csslibs',['sass'], function(){
-	return gulp.src('app/css/main.css')
-	.pipe(cssnano())
-	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest('app/css/'));
-});
+
 
 gulp.task('browser', function(){
 	browser({
@@ -75,24 +77,21 @@ gulp.task('img', function() {
 });
 
 gulp.task('watch',['browser','csslibs', 'scripts'], function(){
-	gulp.watch('app/scss/**/*.scss', ['sass','csslibs'],browser.reload);
+	gulp.watch('app/scss/**/*.scss', ['csslibs'],browser.reload);
 	gulp.watch('app/**/*.html', browser.reload);
 	gulp.watch('app/js/**/*.js', browser.reload);
 	gulp.watch('app/css/**/*.css', browser.reload);
 
 });
 
-gulp.task('build',['clean','img', 'sass','scripts'], function(){
-	var buildCSS = gulp.src([
-			'app/css/main.css',
-			'app/css/libs.min.css',
-		]).pipe(gulp.dest('dist/css'));
+gulp.task('build',['clean','csslibs','img'], function(){
+	var buildCSS = gulp.src(['app/css/**/*.css']).pipe(gulp.dest('dist/css'));
 
 	var buildFonts = gulp.src('app/fonts/**/*').pipe(gulp.dest('dist/fonts'));
 
-	var buildJS = gulp.src('app/js/**/*').pipe(gulp.dest('dist/js'));
+	var buildJS = gulp.src('app/js/**/*.js').pipe(gulp.dest('dist/js'));
 
-	var buildHTML = gulp.src('app/*html').pipe(gulp.dest('dist'));
+	var buildHTML = gulp.src('app/*.html').pipe(gulp.dest('dist'));
 });
 
 gulp.task('default',['watch']);
