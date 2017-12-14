@@ -1,7 +1,7 @@
 {
   "name": "haskiproject",
   "version": "1.0.0",
-  "description": "My Project Site Haski",
+  "description": "SKKO Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^3.0.0",
-    "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^5.0.0"
   }
 }
