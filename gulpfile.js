@@ -8,7 +8,7 @@ var gulp     = require('gulp'),
 		del      = require('del'),
 		imagemin = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
 		pngquant = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
-		cache = require('gulp-cache'), // Подключаем библиотеку кеширования
+		cache    = require('gulp-cache'), // Подключаем библиотеку кеширования
 		autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 
 /* Пример Таска
