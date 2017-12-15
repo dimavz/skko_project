@@ -118,21 +118,21 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.play').on('click',function(){
-		owl.trigger('play.owl.autoplay',[1000])
-	});
-	$('.stop').on('click',function(){
-		owl.trigger('stop.owl.autoplay')
-	});
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+    });
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    });
 
-	owl.on('mousewheel', '.owl-stage', function (e) {
-		if (e.deltaY>0) {
-			owl.trigger('next.owl');
-		} else {
-			owl.trigger('prev.owl');
-		}
-		e.preventDefault();
-	});
+    owl.on('mousewheel', '.owl-stage', function (e) {
+        if (e.deltaY>0) {
+            owl.trigger('next.owl');
+        } else {
+            owl.trigger('prev.owl');
+        }
+        e.preventDefault();
+    });
 
 	// Переход с следующему элементу слайдера
 	$('.owl-next').click(function() {

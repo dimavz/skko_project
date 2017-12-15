@@ -1,0 +1,19 @@
+{
+  "name": "skkoproject",
+  "description": "SKKO Project",
+  "main": "index.js",
+  "authors": [
+    "Dmitry Zatulenko"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dimavz/skko_project",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ]
+}
