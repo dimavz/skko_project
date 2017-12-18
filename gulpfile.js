@@ -74,7 +74,7 @@ gulp.task('img', function() {
 		.pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
 });
 
-gulp.task('watch',['css_min', 'scripts'], function(){
+gulp.task('watch',['css_min', 'scripts','browser'], function(){
 	gulp.watch('app/scss/**/*.scss', ['css_min'], browser.reload);
 	gulp.watch('app/**/*.html', browser.reload);
 	gulp.watch('app/js/**/*.js', browser.reload);
