@@ -29,9 +29,15 @@ body {
 
 /* Верхнее меню */
 .form_search .form-inline .input-group-addon {
-  background-color: #4EC698;
+  position: absolute;
+  left: 199px;
+  top: 0px;
+  background-color: #4ec698;
   color: #fff;
-  font-size: 18px; }
+  font-size: 18px;
+  z-index: 100;
+  width: 100px;
+  height: 34px; }
 
 .top_main_menu {
   display: none;
