@@ -911,7 +911,9 @@ nav.main_menu.stickytop {
 	/*.owl-stage-outer{
 		margin: 20px auto;
 		}*/
-
+		.owl-carousel .owl-stage-outer {
+			margin-left: 8px;
+		}
 		#bottom_baners.owl-carousel{
 			height: 195px;
 			margin-top: 20px;
