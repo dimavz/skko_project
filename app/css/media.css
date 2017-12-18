@@ -1,5 +1,4 @@
 /*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.top_header{
@@ -17,7 +16,6 @@
 		margin-top: 75px;
 		margin-left: 50px;
 	}
-
 	.greeting #slog {
 		font-size: 18px;
 		top: 152px;
@@ -40,7 +38,6 @@
 		left: -105px;
 		top:-7px;
 	}
-
 	.form_find .form-inline .form-group input {
 		width: 270px;
 		height: 30px;
@@ -48,49 +45,40 @@
 	.form_find .form-group button.input-group-addon {
 		height: 30px;
 	}
-
 	.wraper_logo .greeting .btn.btn-success {
 		font-size: 18px;
 		height: 40px;
 	}
-	
 	.notice {
 		height: 90px;
 		margin-left: 30px;
 		margin-top: 7px;
 		padding: 2px;
 	}
-
 	.main_menu {
 		position: absolute;
 		top:-50px;
 		width: 970px;
 		height: 40px;
 	}
-
 	.affix{
 		position: fixed;
 		top:50px;
 	}
-
 	.string_content marquee {
 		top: 2px;
 		font-size: 22px;
 	}
-
 	.icon_chevron{
 		position: absolute;
 		top:-7px;
 		left: 0px;
 	}
-
 	/*Стиль слайдера*/
-
 	.main_slider img{
 		width: 350px;
 		height: 200px !important;
 	}
-
 	.main_slider .carousel-caption{
 		/*position: absolute;*/
 		top:-35px;
@@ -98,14 +86,12 @@
 		text-align: left;
 		width: 500px;
 	}
-
 	.main_slider .carousel-caption .item_text{
 		text-align: left;
 		width: 430px;
 		height: 90px;
 		overflow: hidden;
 	}
-
 	.main_slider .item h3{
 		font-size: 18px;
 		color: #3779BF;
@@ -113,17 +99,14 @@
 		width: 100%;
 		overflow: hidden;
 	}
-
 	.main_slider .item p{
 		color: #000;
 		font-size: 14px;
 	}
-
 	.main_slider .carousel-caption a.btn {
 		margin-top: 10px;
 	}
 	/* Конец стиль слайдера*/
-
 	/* Стили модуля новостей*/
 	.article_header {
 		position: absolute;
@@ -158,30 +141,24 @@
 	.article_main_header h3 {
 		width: 75%;
 	}
-
 	/* Конец стилей модуля новостей*/
 	.owl-carousel .owl-stage-outer {
 		margin-left: 20px;
 	}
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
 	.owl-carousel .owl-stage-outer {
 		position: absolute;
 		left: 77px;
 		width: 600px;
 	}
-
 	.top_header{
 		height: 160px;
 	}
-
 	#header_topline .container .row ul {
 		font-size: 14px;
 	}
-
 	.logo_img {
 		width: 200px;
 		height: 200px;
@@ -190,11 +167,9 @@
 		width: 200px;
 		height: 200px;
 	}
-
 	.logo_img h1 {
 		font-size: 70px;
 	}
-
 	/* Форма поиска */ 
 	.top_search{
 		position: absolute;
@@ -202,27 +177,22 @@
 		top: -21px;
 		left: 608px;
 	}
-
 	.top_search span {
 		left: -99px;
 		top: -2px;
 		font-size: 20px;
 	}
-
 	.form_find .form-inline .form-group input {
 		width: 240px;
 		height: 26px;
 		font-size: 12px;
 	}
-
 	.form_find .form-group button.input-group-addon {
 		height: 26px;
 		width: 60px;
 		font-size: 12px;
 		padding-bottom: 5px;
 	}
-
-
 	.logo_text{
 		display: block;
 		float: left;
@@ -230,12 +200,10 @@
 		width: 100%;
 		height: 200px;
 	}
-
 	.top_brand h1 {
 		font-size: 42px;
 		margin-top: -12px;
 	}
-
 	.top_login{
 		display: none;
 		position: absolute;
@@ -248,11 +216,9 @@
 		text-align: center;
 		z-index: 40;
 	}
-
 	.top_links{
 		padding-top: 0px;
 	}
-
 	.greeting h3 {
 		font-size: 22px;
 		margin-top: 90px;
@@ -290,103 +256,81 @@
 		margin-top: 20px;
 		padding: 10px;
 	}
-
 	.main_menu {
 		width: 750px;
 		top:-85px;
 	}
-
 	.affix{
 		position: fixed;
 		top:50px;
 	}
-
 	.main_menu a {
 		padding: 5px 5px;
 	}
-
 	.main_menu ul li span.header {
 		padding: 5px 7px;
 	}
-
 	.string_content marquee {
 		top: 5px;
 		font-size: 18px;
 		width: 350px;
 	}
-
 	.article_main_widget {
 		margin-bottom: 20px;
 	}
-
 	.footer_left_block h3{
 		display: block;
 		padding: 15px;
 		border: 1px solid;
 		height: 80px;
 	}
-
 	.footer_left_block h3:hover {
 		background-color: #396B62;
 		color: #fff;
 	}
-
 	.footer_left_block ul{
 		display: none;
 	}
-	
 	.footer_center_block {
 		text-align: left;
 	}
-
 	.footer_center_block h3{
 		display: block;
 		padding: 15px;
 		border: 1px solid;
 		height: 80px;
 	}
-
 	.footer_center_block h3:hover{
 		background-color: #396B62;
 		color: #fff;
 	}
-
 	.rec_content{
 		display: none;
 	}
-
 	.footer_right_block {
 		width: 100%;
 	}
-
-	
 	.footer_right_block h3{
 		display: block;
 		padding: 15px;
 		border: 1px solid;
 		height: 80px;
 	}
-
 	.footer_right_block h3:hover{
 		background-color: #396B62;
 		color: #fff;
 	}
-
 	.contacts_content{
 		display: none;
 	}
-
 	.footer_subscribe form{
 		margin-left: 0px;
 	}
-
 	/*Стиль слайдера*/
-
 	.main_slider img{
 		width: 250px;
 		height: 150px !important;
 	}
-
 	.main_slider .carousel-caption{
 		/*position: absolute;*/
 		top:-40px;
@@ -394,25 +338,21 @@
 		text-align: left;
 		width: 350px;
 	}
-
 	.main_slider .carousel-caption .item_text{
 		text-align: left;
 		width: 350px;
 		height: 80px;
 		overflow: hidden;
 	}
-
 	.main_slider .item h3{
 		font-size: 16px;
 		height: 35px;
 		overflow: hidden;
 	}
-
 	.main_slider .item p{
 		color: #000;
 		font-size: 12px;
 	}
-
 	.main_slider .carousel-caption a.btn {
 		margin-top: -5px;
 		padding-left: 15px;
@@ -421,7 +361,6 @@
 		padding-right: 15px;
 	}
 	/* Конец стиль слайдера*/
-
 	/* Стили слайдера модуля Розыска*/
 	#carousel-wanted_pets.carousel.slide {
 		height: 350px;
@@ -497,7 +436,6 @@
 	}
 	/* Конец стилей слайдера модуля Розыска*/
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
@@ -685,16 +623,14 @@
 			padding-right: 15px;
 		}
 		/* Конец стиль слайдера*/
-
-			.top_header{
+    .top_header{
 				height:110px;
 			}
-			#top_banners {
-				margin-top: 60px;
-
-	}
-
-	@media only screen and (max-width : 715px) {
+    #top_banners {
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width : 715px) {
 
 		.wraper_logo .greeting .row .col-md-3 {
 			padding-left: 0px;
@@ -794,7 +730,14 @@
 	}
 	/* Конец стиль слайдера*/
 }
+@media only screen and (max-width: 640px){
 
+	.owl-carousel .owl-stage-outer {
+		position: absolute;
+		left: 55px;
+		width: 500px;
+	}
+}
 /* Для настройки отображения навигатора страниц */
 @media only screen and (max-width : 580px) {
 
@@ -924,9 +867,8 @@
 
 			/* Конец стилей слайдера модуля розыска */
 		}
-
-		/* Для настройки отображения логотипа */
-		@media only screen and (max-width : 545px) {
+/* Для настройки отображения логотипа */
+@media only screen and (max-width : 545px) {
 
 			.logo_img{
 				width: 150px;
@@ -973,17 +915,19 @@
 				width: 100%;
 			}
 		}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
 
-		/* Extra Small Devices, Phones */
-		@media only screen and (max-width : 480px) {
-
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+    }
 			.logo_text{
 				display: block;
 				float: left;
 				margin-top: 0px;
 				width: 100%;
 				height: 100%;
-				margin: 0 auto;
+				/*margin: 0 auto;*/
 			}
 
 			.greeting{
@@ -1092,9 +1036,8 @@
 			/* Конец стилей слайдера модуля розыска */
 
 		}
-
-		/* Изменение отображения логотипа */ 
-		@media only screen and (max-width : 430px) {
+/* Изменение отображения логотипа */
+@media only screen and (max-width : 430px) {
 
 			.top_header{
 				height:160px;
@@ -1114,9 +1057,8 @@
 			}
 			
 		}
-
-		/* Изменение размеров панели навигации страниц */
-		@media only screen and (max-width : 415px) {
+/* Изменение размеров панели навигации страниц */
+@media only screen and (max-width : 415px) {
 
 			.top_header{
 				height:160px;
@@ -1187,8 +1129,7 @@
 				width: 40%;
 			}
 		}
-
-		@media only screen and (max-width : 384px) {
+@media only screen and (max-width : 384px) {
 			.top_header{
 				height:175px;
 			}
@@ -1382,3 +1323,10 @@
 				
 			}
 		}
+@media only screen and (max-width: 320px) {
+    .owl-carousel .owl-stage-outer {
+        position: absolute;
+        left: 27px;
+        width: 224px;
+    }
+}
