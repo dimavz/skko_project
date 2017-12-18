@@ -39,7 +39,7 @@ gulp.task('scripts', function(){
 	.pipe(gulp.dest('app/js'))
 } );
 
-gulp.task('csslibs',['sass'], function(){
+gulp.task("css_min",['sass'], function(){
 	return gulp.src('app/css/main.css')
 	.pipe(cssnano())
 	.pipe(rename({suffix: '.min'}))
@@ -74,8 +74,8 @@ gulp.task('img', function() {
 		.pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
 });
 
-gulp.task('watch',['browser','csslibs', 'scripts'], function(){
-	gulp.watch('app/scss/**/*.scss', ['sass']);
+gulp.task('watch',['css_min', 'scripts'], function(){
+	gulp.watch('app/scss/**/*.scss', ['css_min'], browser.reload);
 	gulp.watch('app/**/*.html', browser.reload);
 	gulp.watch('app/js/**/*.js', browser.reload);
 	gulp.watch('app/css/**/*.css', browser.reload);

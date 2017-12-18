@@ -83,8 +83,9 @@ body {
   margin-top: 5px; }
 
 #accordion .panel-info > .panel-heading {
-  background-color: #4EC698;
-  border-color: #fff; }
+  background-color: #396B62;
+  border-color: #fff;
+  color: white; }
 
 #accordion .panel-info > .panel-heading > .panel-title a {
   display: block;
