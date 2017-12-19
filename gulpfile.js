@@ -85,7 +85,7 @@ gulp.task('watch',['css_min', 'scripts','browser'], function(){
 gulp.task('build',['clean','img', 'sass','scripts'], function(){
 	var buildCSS = gulp.src([
 			'app/css/main.css',
-			'app/css/libs.min.css',
+			'app/css/main.min.css',
 		]).pipe(gulp.dest('dist/css'));
 
 	var buildFonts = gulp.src('app/fonts/**/*').pipe(gulp.dest('dist/fonts'));
